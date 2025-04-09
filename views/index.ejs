@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>States</title>
+</head>
+<body>
+    <h1>Available States</h1>
+    <ul>
+        <% states.forEach(state => { %>
+            <li>
+                <a href="/state/<%= state %>"><%= state %></a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
